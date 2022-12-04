@@ -5,6 +5,7 @@ import Overview from "../Overview";
 import Repositories from "../Repositories";
 import Followers from "../Followers";
 import Following from "../Following";
+import NotFound from "../NotFound";
 
 const index = () => {
   return (
@@ -14,6 +15,7 @@ const index = () => {
         <Route path="/repositories" element={<Repositories/>}/>
         <Route path="/followers" element={<Followers/>}/>
         <Route path="/following" element={<Following/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </>
   );
