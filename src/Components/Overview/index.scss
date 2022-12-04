@@ -1,0 +1,94 @@
+.overview{
+    padding-top: 30px;
+}
+
+.overview__title{
+    font-size: 16px;
+    color:  #24292F;
+}
+
+.overview__text{
+    font-size: 12px;
+    color:  #57606A;
+}
+
+.overview__card{
+    position: relative;
+    width: 440px;
+    padding: 16px;
+    border: 1px solid #b1b3b68f;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.overview__card:nth-child(2n+1){
+    margin-top: 20px;
+}
+
+.overview__card-title{
+    font-size: 15px;
+    color: #0969DA;
+    font-weight: 500;
+    margin-bottom: 24px;
+}   
+
+.overview__desc{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.overview__lang{
+    display: inline-block;
+    font-size: 12px;
+    color: #57606A;
+}
+
+.overview__star{
+    display: inline-block;
+    font-size: 12px;
+    color: #57606A;
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.overview__star::before{
+    content: url("../../Assets/star.svg");
+}
+
+.overview__public{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #57606A;
+    padding: 0 7px;
+    background: white;
+    border: 1px solid #b1b3b68f;
+    border-radius: 10px;
+}
+
+.dumaloq{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.red{
+    background: rgb(228, 37, 37);
+}
+
+.pirple{
+    background-color: blueviolet;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: rgb(226, 39, 148);
+}

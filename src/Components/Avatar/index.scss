@@ -1,0 +1,38 @@
+.avatar{
+    width: 256px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.avatar__title{
+    font-size: 20px;
+    color: #57606A;
+}
+
+.btnn{
+    width: 100%;
+    padding: 5px 16px;
+    background-color: #F6F8FA;
+    color: #24292F;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid rgb(202, 196, 196);
+}
+
+.btnn:hover{
+    background-color: #eff3f7;
+    border: 1px solid rgb(231, 228, 228);
+}
+
+.svvg path{
+    fill: #57606A;
+}
+
+.textt{
+    color: #24292F;
+}
+
+span{
+    color: #57606A;
+    font-size: 14px;
+}

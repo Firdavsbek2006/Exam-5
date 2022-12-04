@@ -1,0 +1,38 @@
+.site-footer{
+    padding-bottom: 50px;
+}
+
+.footer{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    border-top: 1px solid #6e77813a;
+}
+
+.logoo path{
+    fill: #6E7781;
+}
+
+.footer__logo-div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer__span{
+    display: inline-block;
+    font-size: 12px;
+    color: #57606A;
+}
+
+.footer__list{
+    display: flex;
+    gap: 42px;
+}
+
+.footer__item a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #0969DA;
+}

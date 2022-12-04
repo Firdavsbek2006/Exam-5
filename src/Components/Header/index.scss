@@ -1,0 +1,93 @@
+.site-header{
+    padding: 16px 24px;
+    background-color: #24292F;
+    margin-bottom: 40px;
+}
+
+.header__left{
+    align-items: center;
+    gap: 16px;
+}
+
+label{
+    position: relative;
+}
+
+.header__input{
+    width: 272px;
+    background: #24292F;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2px 0 2px 12px;
+    appearance: none;
+}
+
+.header__input::placeholder{
+    color: white;
+}
+
+.svggg{
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    z-index: 1000000;
+}
+
+.svggg path{
+    fill: grey;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+svg path{
+    fill: white;
+}
+
+.header__item a{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.header__right{
+    align-items: center;
+    gap: 16px;
+}
+
+.plus-div{
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.imgg{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.avatar-wr{
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+svg path{
+    fill: white;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.header__item a{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
